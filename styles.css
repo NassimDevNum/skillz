@@ -1,0 +1,51 @@
+body, html {
+    height: 100%; /* rendre la hauteur du body et html 100% pour centrer verticalement le contenu */
+    margin: 0; /* supprimer les marges par défaut */
+    padding: 0;
+    background-color: black;
+}
+
+.navbar {
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* pour s'assurer que la navbar est au-dessus des autres éléments */
+}
+
+.nav-item {
+    font-size: 50px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+/* Si vous souhaitez ajouter des effets au survol des éléments */
+.nav-item:hover {
+    color: #ddd;
+    cursor: pointer;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centrer horizontalement */
+    align-items: center; /* centrer verticalement */
+    height: 100%;
+}
+.div1 span {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0; /* supprimer les marges par défaut de h1 pour centrer parfaitement */
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 50px;
+    color: green;
+     
+}
